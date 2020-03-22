@@ -17,7 +17,6 @@ public class McdApp {
     public static void main(String[] args) {
 		    int valor1 = 6, valor2 = 15;
         int mcdRetornado = mcd(valor1, valor2);
-	int mcdRetornado2 = mcd(valor1, valor2);
         System.out.format("El MCD de %d y %d es %d %n", valor1,valor2, mcdRetornado);  
         System.out.format("El MCD de %d y %d es %d %n", valor1,valor2, mcd(valor1, valor2));
     }
